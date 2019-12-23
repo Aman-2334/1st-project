@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+}
+#features{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.initial-container-fluid{
+  padding: 3% 15%;
+}
+.features-container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #ffff;
+}
+button{
+  font-family: 'Ubuntu', sans-serif;
+}
+.iphone6{
+  transform: rotate(25deg);
+  width: 280px;
+  object-fit: contain;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 60px;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.features-logo{
+  color: #ef8172;
+  padding-bottom: 5px;
+}
+.features-logo:hover{
+  color: #ff4c68;
+}
+.features-para{
+  color: #8f8f8f;
+  width: 79%;
+  /* text-align: center; */
+  margin: 0 auto 0;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  /* text-align: center; */
+}
+.features-div-col{
+   padding-top: 10%;
+   padding-bottom: 10%;
+   text-align: center;
+}
+
+/* testimonials section */
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffff;
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press{
+  padding: 3%;
+  text-align: center;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+
+/* pricing */
+ #pricing{
+   padding: 100px;
+   text-align: center;
+ }
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.white-section {
+  background-color: #fff;
+}
